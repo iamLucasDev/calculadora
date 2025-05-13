@@ -13,7 +13,7 @@ Projeto de uma calculadora simples feita com **HTML**, **CSS** e **JavaScript** 
 - JavaScript
 
 ## 📸 Preview
- <img src="calculadoraweb.png" alt="">
+ <img src="calculadoraweb.png" alt="calculadora web">
  
 ## 🚀 Como executar
 1. Clone o repositório
