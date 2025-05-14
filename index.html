@@ -5,30 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
 </head>
 <body>
    <a href="https://github.com/iamLucasDev " target="_blank">iamLucasDev</a>
     <main>
     <div class="calculadora">
+
+    <!--- Display é a tela da calculadora --->
         <output id="display"></output>
-        <button>c</button>
-        <button>ce</button>
-        <button>/</button>
-        <button>x</button>
+
+        <button onclick="clean()">c</button>
+        <button onclick="back()">ce</button>
+        <button onclick="insert('/')">/</button>
+        <button onclick="insert('x')">x</button>
+
         <button onclick="insert('7')">7</button>
         <button onclick="insert('8')">8</button>
         <button onclick="insert('9')">9</button>
-        <button>-</button>
+        <button onclick="insert('-')">-</button>
+
         <button onclick="insert('4')">4</button>
         <button onclick="insert('5')">5</button>
         <button onclick="insert('6')">6</button>
-        <button>+</button>
+        <button onclick="insert('+')">+</button>
+
         <button onclick="insert('1')">1</button>
         <button onclick="insert('2')">2</button>
         <button onclick="insert('3')">3</button>
-        <button id="igual">=</button>
+        <button id="igual" onclick="calcular()">=</button>
+
         <button id="zero" onclick="insert('0')">0</button>
-        <button>.</button>
+        <button onclick="insert('.')">.</button>
     </div>
     </main>
     <script src="script.js"></script>

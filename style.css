@@ -36,6 +36,7 @@ main{
  height: auto;
 }
 
+/*  tela da calculadora */
 #display{
 grid-column: 1 / -1;
 background-color: #fffff4;
@@ -65,7 +66,7 @@ button:active {
     background-color: #2e3c64;
 }
 
-/* operador logico = */
+/* operador logico (=) */
 #igual{
     grid-column:4/-1;
     grid-row:  span 2;
